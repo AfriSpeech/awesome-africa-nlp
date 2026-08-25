@@ -16,6 +16,7 @@ If you would like to contribute, please check out our [Contribution Guide](docs/
 
 ### Python
 
+- [odu-core](https://github.com/timeyinallout-cloud/odu-core) – The 256 Odù Ifá as a canonical byte mapping, with Yorùbá orthography preserved and every figure source-attributed
 - [fsociety](https://github.com/Manisso/fsociety) – fsociety Hacking Tools Pack - A Penetration Testing Framework
 - [Sublist3r](https://github.com/aboul3la/Sublist3r) – Fast subdomains enumeration tool for penetration testers
 - [plotnine](https://github.com/has2k1/plotnine) – A Grammar of Graphics for Python
