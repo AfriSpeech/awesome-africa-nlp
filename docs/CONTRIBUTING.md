@@ -1,49 +1,38 @@
-# Contributing to Awesome African NLP
+# Contributing
 
-Thank you for your interest in contributing! We welcome projects that advance NLP for African languages.
+We list open-source NLP projects for African languages.
 
-## How to Contribute
+## How to Submit a Project
 
-### Submitting a New Project
+1. Go to [Issues](../../issues) and click **New Issue**
+2. Select **Add a Project**
+3. Fill in the fields — name, GitHub URL, language(s), description, etc.
+4. Submit the issue
 
-1. Fork this repository.
-2. Add your project entry to `README.md` under the correct language section.
-3. Use [afriso](https://github.com/AfriSpeech/afriso) to look up the correct ISO 639-3 code for the language.
-4. Ensure your project meets the criteria below.
-5. Submit a Pull Request.
+A maintainer will review and add it to the README.
 
-### Contribution Criteria
+That's it — no forking or pull requests needed.
 
-Projects must:
-- Be **open-source** (valid license: MIT, GPL, Apache, etc.)
-- Be directly related to **NLP for African languages** (not just African-authored software)
-- Have active development or meaningful functionality (not empty repos)
-- Include a clear description of what the project does
+## What We Include
+
+- Open-source projects directly related to NLP for African languages
+- Must have a GitHub repository with meaningful code
+- Must not be empty or archived with no functionality
 
 Qualifying project types:
-- Machine translation
-- Named entity recognition (NER)
-- Sentiment analysis
-- Text-to-speech (TTS) / speech recognition (ASR)
-- Language models and tokenizers
+- Machine translation, NER, sentiment analysis
+- TTS / ASR / speech recognition
+- Language models, tokenizers
 - Datasets and benchmarks for African languages
 - NLP toolkits, preprocessing, diacritic restoration
-- Language identification
-- Text summarization, question answering
 
-### Editing Existing Entries
+## Language Codes
 
-1. Edit the `README.md` file with the correct details.
-2. Submit a Pull Request.
+Use [ISO 639-3](https://github.com/AfriSpeech/afriso) codes when possible. You can look them up with:
 
-### Adding a New Language Section
-
-If your project supports a language not yet listed:
-1. Look up the ISO 639-3 code using [afriso](https://github.com/AfriSpeech/afriso)
-2. Add a new section under the appropriate region in `README.md`
-3. Use the format: `### Language Name \`iso\``
-
-### Review and Approval
-
-- All submissions will be reviewed before being merged.
-- Submissions that don't meet the criteria will receive feedback.
+```bash
+pip install afriso
+afriso iso Yoruba    # yor
+afriso iso Hausa     # hau
+afriso iso Swahili   # swa
+```

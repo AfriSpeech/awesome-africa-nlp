@@ -1,0 +1,86 @@
+name: Add a Project
+description: Submit an open-source NLP project for African languages
+title: "[Project] "
+labels: ["submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project Name
+      description: The name of the project.
+      placeholder: "e.g. masakhane-mt"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: GitHub URL
+      description: Link to the project's GitHub repository.
+      placeholder: "e.g. https://github.com/masakhane-io/masakhane-mt"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      description: Which region does this project primarily focus on?
+      options:
+        - Pan-African
+        - West Africa
+        - East Africa
+        - North Africa
+        - Southern Africa
+        - Central Africa
+        - Speech & Audio (cross-region)
+        - Datasets & Benchmarks (cross-region)
+        - Tools & Libraries (cross-region)
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Language(s)
+      description: Which African language(s) does this project support? Use ISO 639-3 codes if possible (lookup at https://github.com/AfriSpeech/afriso).
+      placeholder: "e.g. yor, hau, ibo, swa"
+    validations:
+      required: true
+
+  - type: input
+    id: language_name
+    attributes:
+      label: Language Name(s)
+      description: Common English names of the language(s).
+      placeholder: "e.g. Yoruba, Hausa, Igbo, Swahili"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what the project does (1 sentence).
+      placeholder: "e.g. Machine translation for 38+ African languages using OpenNMT."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Project Type
+      description: What kind of NLP project is this?
+      options:
+        - Machine Translation
+        - Named Entity Recognition (NER)
+        - Sentiment Analysis
+        - Text-to-Speech (TTS)
+        - Speech Recognition (ASR)
+        - Language Model
+        - Tokenizer
+        - Dataset / Benchmark
+        - NLP Toolkit / Library
+        - Other
+    validations:
+      required: true
