@@ -56,8 +56,6 @@ Projects covering many African languages.
 | [afriqa](https://github.com/masakhane-io/afriqa) | 10 | First cross-lingual open-retrieval QA dataset for African languages (12,000+ QA pairs). |
 | [africanlp-public-datasets](https://github.com/Andrews2017/africanlp-public-datasets) | 50+ | Comprehensive catalog of publicly available NLP datasets for African languages. |
 | [NaijaSenti](https://github.com/hausanlp/NaijaSenti) | 4 | Sentiment corpus for Nigerian languages (Hausa, Yoruba, Igbo, Nigerian Pidgin) from Twitter. |
-| [AfriSpeech](https://github.com/AfriSpeech) | Multiple | Open-source speech models (ASR, TTS, SLID) and LLM benchmarks for 61 African languages. |
-| [Lanfrica](https://github.com/lanfrica) | Pan-African | Community-led platform for discoverability of African NLP research, datasets, and resources. |
 | [afriso](https://github.com/AfriSpeech/afriso) | 2,264 | Map African language names to ISO 639-3 codes, countries, families, and alternative names. |
 
 ---
@@ -259,7 +257,6 @@ Projects covering many African languages.
 
 | Project | Languages | Description |
 | :-- | :-- | :-- |
-| [AfriSpeech](https://github.com/AfriSpeech) | Multiple | Open-source speech models (ASR, TTS, SLID) and LLM benchmarks for 61 African languages. |
 | [Afro-TTS](https://huggingface.co/intronhealth/afro-tts) | English (86 African accents) | First pan-African accented English speech synthesis. 1000 personas, voice cloning from 6s audio. |
 | [ALFFA](https://github.com/getalp/ALFFA_PUBLIC) | Amh, Swa, Hau, Wol | Open-source Kaldi ASR systems for African languages. Ready-to-train speech recognition recipes. |
 | [African-Whisper](https://github.com/KevKibe/African-Whisper) | Swa (+ expandable) | ASR framework fine-tuned Whisper for African speech recognition. |
@@ -288,7 +285,6 @@ Projects covering many African languages.
 | :-- | :-- |
 | [afriso](https://github.com/AfriSpeech/afriso) | Map African language names to ISO 639-3 codes, countries, families, and alternative names. 2,264 languages. |
 | [Msingi-AI-Tokenizers](https://github.com/Msingi-AI/MsingiAI-Tokenizers) | Language-specific tokenizers and preprocessing tools for low-resource African languages. |
-| [Lanfrica](https://github.com/lanfrica) | Community-led platform for discoverability of African NLP research, datasets, and resources. |
 
 ---
 
