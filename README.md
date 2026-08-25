@@ -1,6 +1,6 @@
-# Awesome African Open-Source Projects
+# Awesome African Open-Source NLP Projects
 
-A curated list of 200+ awesome open-source projects made by African developers.
+A curated list of 200+ awesome open-source natural language processing projects.
 
 If you would like to contribute, please check out our [Contribution Guide](docs/CONTRIBUTING.md).
 
